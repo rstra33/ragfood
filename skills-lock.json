@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "skills": {
+    "PRD Mastery: Context-Aware, Expert-Driven, and Token-Efficient Refinement": {
+      "source": "gocallum/nextjs16-agent-skills",
+      "sourceType": "github",
+      "computedHash": "3655954e2c35925b94e842c8196508a178711304a06b65acd140b0b4b6d6fbfb"
+    },
+    "ai-sdk-6-skills": {
+      "source": "gocallum/nextjs16-agent-skills",
+      "sourceType": "github",
+      "computedHash": "fdc18d569fdb437713fba857155dde08fa913d062acb9f33d91210ef08e833a0"
+    },
+    "authjs-skills": {
+      "source": "gocallum/nextjs16-agent-skills",
+      "sourceType": "github",
+      "computedHash": "a9e50317bfff481c46c9b7199bbb952c9cd776dc02767e1c0f22232452bb0341"
+    },
+    "clerk-nextjs-skills": {
+      "source": "gocallum/nextjs16-agent-skills",
+      "sourceType": "github",
+      "computedHash": "83333fe1e8dfe48234ab15f455b7d01b368204accfd8a329a795c7c4b710accc"
+    },
+    "mcp-server-skills": {
+      "source": "gocallum/nextjs16-agent-skills",
+      "sourceType": "github",
+      "computedHash": "988e12b18cc9a1907596b5719defe129bb8003f688ca0534c34a41dac0d4b9cb"
+    },
+    "nextjs16-skills": {
+      "source": "gocallum/nextjs16-agent-skills",
+      "sourceType": "github",
+      "computedHash": "80fe177f4f80c22606a16952a65e06f73c87d40f5d082d0f9cec4725f103dd41"
+    },
+    "prisma-orm-v7-skills": {
+      "source": "gocallum/nextjs16-agent-skills",
+      "sourceType": "github",
+      "computedHash": "371d23a97d15be1fdd5ae350b4b2a151045e8fabf83aed0b2d716e747f7ea6d2"
+    },
+    "resend-integration-skills": {
+      "source": "gocallum/nextjs16-agent-skills",
+      "sourceType": "github",
+      "computedHash": "c5a75810da769677c0aac070bb0b542391801b02b7e3dd0442068afc2f4fe376"
+    },
+    "upstash-vector-db-skills": {
+      "source": "gocallum/nextjs16-agent-skills",
+      "sourceType": "github",
+      "computedHash": "f7a77594f2a1ddc1c700aae363dad958d59408f5117d24d9e1a7e1306ff5edd8"
+    }
+  }
+}
