@@ -448,5 +448,95 @@
   "text": "Suutei tsai is a traditional Mongolian milk tea made with green tea, milk, water, and salt.",
   "region": "Mongolia",
   "type": "Beverage"
+},
+{
+  "id": "76",
+  "text": "Beef Bourguignon is a classic French Burgundy stew featuring chuck or braising cuts of beef slowly braised in red wine (preferably Burgundy), beef stock, tomato paste, pearl onions, mushrooms, and bacon lardons. The meat is seared, then braised for 2-3 hours at low temperature (325°F/163°C) until extremely tender. This dish is rich in protein, iron, and B vitamins from the beef, while the wine reduces to create a deep, complex sauce. Popularized globally by Julia Child, it represents French home cooking at its finest. Dietary: Contains beef and wine; not vegetarian/vegan; gluten-free if thickened without flour.",
+  "region": "France",
+  "type": "Main Course"
+},
+{
+  "id": "77",
+  "text": "Coq au vin is a rustic French chicken dish originating from Burgundy, prepared by braising chicken pieces in red wine with bacon lardons, pearl onions, mushrooms, garlic, and a bouquet garni for 45-60 minutes until the chicken is fall-apart tender. The slow-cooking method infuses the poultry with rich wine flavors while rendering the skin and fat. Nutritionally, it provides lean protein from chicken, iron from wine and bacon, and antioxidants from the wine. This peasant dish was traditionally made with tough roasting birds; today it's a celebration of French culinary technique. Dietary: Contains chicken, bacon, and wine; not vegetarian/vegan; gluten-free if thickened without flour.",
+  "region": "France",
+  "type": "Main Course"
+},
+{
+  "id": "78",
+  "text": "Ratatouille is a Provençal vegetable stew originating from Nice, made by layering and slow-cooking eggplant, zucchini, bell peppers, tomatoes, onions, and garlic with Provençal herbs (basil, thyme, oregano) and olive oil for 30-45 minutes until vegetables are tender and flavors meld. Each vegetable is traditionally sliced uniformly and cooked separately before combining, though rustic versions mix all at once. This colorful dish is rich in vitamins C and K, lycopene from tomatoes, and fiber from vegetables, while being naturally low in calories. A symbol of Mediterranean cuisine and healthy eating, it celebrates seasonal produce. Dietary: Vegetarian, vegan, gluten-free, dairy-free; naturally low-fat if using minimal olive oil.",
+  "region": "France",
+  "type": "Main Course"
+},
+{
+  "id": "79",
+  "text": "Bouillabaisse is a legendary Provençal fish stew from Marseille, traditionally prepared with a variety of Mediterranean fish (sea bass, rockfish, mullet), shrimp, and mussels simmered in a saffron, fennel, and orange-infused broth with tomatoes and garlic for 20-30 minutes. Served with rouille (a saffron-garlic mayonnaise) spread on crispy croutons and grated Gruyère cheese stirred into the broth. Originally made by fishermen with unsold catch, it's now considered haute cuisine. Rich in omega-3 fatty acids, selenium, and iodine from seafood, plus antioxidants from saffron. Cultural significance: UNESCO-listed intangible cultural heritage. Dietary: Contains fish, shellfish, eggs (in rouille); not vegetarian/vegan; contains gluten in croutons unless specified.",
+  "region": "France",
+  "type": "Soup"
+},
+{
+  "id": "80",
+  "text": "A croissant is an iconic laminated pastry made by folding butter into yeast dough multiple times to create hundreds of flaky layers, which puff and separate during baking at high temperature (400°F/200°C) for 15-20 minutes until golden and crispy. Despite Austrian origins (kipferl), the croissant became synonymous with French breakfast culture. The intricate folding technique (lamination) requires precision: each fold creates exponential layers for maximum flakiness. Nutritionally dense with butter, flour, and sugar, providing quick carbohydrates and calories; primarily a treat food. Each buttery layer makes it indulgent yet addictive. Dietary: Contains wheat (gluten), butter, milk, eggs; not vegetarian (some recipes use animal fat); definitely not vegan; high in saturated fat.",
+  "region": "France",
+  "type": "Snack"
+},
+{
+  "id": "81",
+  "text": "Spinach is a nutrient-dense leafy green vegetable packed with iron (both heme and non-heme when consumed with vitamin C), vitamins K, A, and B-folate, plus powerful antioxidants (lutein, zeaxanthin, beta-carotene) that support eye health, bone strength, and cardiovascular function. Rich in polyphenols with anti-inflammatory properties. Can be consumed raw in salads (maximum nutrient retention), lightly sautéed in garlic and olive oil, or blended into smoothies and soups. The bioavailability of iron increases significantly when paired with vitamin C sources (citrus, tomatoes). A superfood staple across global cuisines. Dietary: Vegetarian, vegan, gluten-free, dairy-free; naturally low-calorie; excellent source of plant-based iron (oxalates present but minimal health impact for most people).",
+  "region": "Global",
+  "type": "Vegetable"
+},
+{
+  "id": "82",
+  "text": "Blueberries are antioxidant-rich berries loaded with anthocyanins (blue pigment), vitamin C, vitamin K, manganese, and dietary fiber, known for improving cognitive function, supporting heart health, and providing potent anti-inflammatory benefits with only 57 calories per 100 grams. The high anthocyanin content (especially in wild blueberries) may enhance memory and slow cognitive decline. Eaten fresh, added to cereals and yogurt, blended into smoothies, or baked into muffins and pies. Often called a 'superfood' due to exceptional antioxidant ORAC (Oxygen Radical Absorbance Capacity) scores. Low glycemic index makes them suitable for blood sugar management. Dietary: Vegetarian, vegan, gluten-free, dairy-free; naturally low in calories and fat; excellent for whole-food plant-based diets.",
+  "region": "Global",
+  "type": "Fruit"
+},
+{
+  "id": "83",
+  "text": "Salmon is an excellent source of omega-3 fatty acids (EPA at 2.3g and DHA at 1.5g per 100g), high-quality complete protein (25g per 100g), vitamin D (especially wild salmon), selenium, and B vitamins, supporting cardiovascular health, brain function, inflammation reduction, joint health, and bone strength. The pink-orange flesh contains astaxanthin, a powerful carotenoid antioxidant. Best prepared by baking (350°F for 15-20 minutes), grilling, pan-searing with minimal oil, or poaching. Wild salmon generally contains higher omega-3 levels and lower pollutants than farmed varieties, though both are nutritious. Consumed in Japanese cuisine for centuries as sushi and sashimi. Dietary: Contains fish; naturally gluten-free; low-carb; excellent for pescatarian and Mediterranean diets; high in healthy unsaturated fats.",
+  "region": "Global",
+  "type": "Protein"
+},
+{
+  "id": "84",
+  "text": "Almonds are nutrient-dense tree nuts rich in monounsaturated fats (9g per ounce), plant-based protein (6g per ounce), vitamin E (37% of daily value), magnesium (19% daily value), and fiber (3.5g per ounce), promoting healthy LDL/HDL cholesterol ratios, sustained energy, dental health via natural compounds, and weight management due to satiety factor. The skin contains polyphenol antioxidants; blanching removes most but raw almonds retain maximum nutrients. Popular as whole snacks, almond butter, almond milk (dairy-free alternative), flour (keto-friendly), and in Middle Eastern and Indian cuisines. Regular consumption linked to improved cognitive function and reduced cardiovascular disease risk in numerous studies. Dietary: Vegetarian, vegan, gluten-free, naturally dairy-free; high in plant-based protein; excellent for keto and paleo diets; may trigger allergies (tree nut allergy).",
+  "region": "Global",
+  "type": "Nut"
+},
+{
+  "id": "85",
+  "text": "Broccoli is a cruciferous vegetable rich in vitamin C (135% of daily value per 100g), dietary fiber (2.4g per 100g), sulforaphane (a powerful cancer-fighting compound released when cells are damaged through chewing or chopping), calcium, potassium, and chromium, supporting immune function, bone health, detoxification processes, and potentially reducing cancer risk. Best consumed raw or lightly steamed (preserves sulforaphane) rather than boiled. The compound sulforaphane has been studied extensively for anti-tumor properties. A staple in Mediterranean, Asian, and American cuisines, prepared as roasted florets, in stir-fries, steamed as sides, or blended into soups. Overcooking significantly reduces nutritional value. Dietary: Vegetarian, vegan, gluten-free, dairy-free, low-calorie (34 calories per 100g); excellent for weight loss and disease prevention diets; contains goitrogens (minimal concern if iodine intake adequate).",
+  "region": "Global",
+  "type": "Vegetable"
+},
+{
+  "id": "86",
+  "text": "Paella is a legendary Valencian rice dish prepared in a wide, shallow pan (paellera) by toasting short-grain bomba or Calasparra rice, then gradually adding saffron-infused broth while stirring constantly for 18-20 minutes over medium-high heat. Regional variations include seafood paella (mariscos with shrimp and mussels), meat paella (with rabbit and chicken), and vegetable paella (with green beans and lima beans). The signature socarrat—a golden, slightly charred, crispy rice layer on the pan bottom—adds textural complexity. Rich in carbohydrates from rice, protein from seafood or meat, and antioxidants from saffron. UNESCO-recognized cultural symbol representing Valencian identity and Mediterranean cuisine. Dietary options available: traditional (contains meat/seafood), vegetarian (vegetables only), or pescatarian (seafood only); gluten-free.",
+  "region": "Spain",
+  "type": "Main Course"
+},
+{
+  "id": "87",
+  "text": "Risotto is a creamy Northern Italian rice dish made exclusively with Arborio (or Carnaroli) rice, which has high starch content essential for creating the signature creamy texture (all'onda). The rice is toasted briefly, then hot broth—vegetable, chicken, or seafood—is added one ladle at a time while stirring constantly for 16-20 minutes until rice is tender yet al dente. Popular variations include Risotto ai Funghi (mushroom), Risotto alla Milanese (saffron), Risotto al Nero di Seppia (squid ink), and Risotto del Pescatore (seafood). Finished with butter and Parmigiano-Reggiano cheese for richness. Provides carbohydrates, protein from cheese and broth, and various vegetables' nutrients depending on variation. Dietary: Traditional risotto contains butter and cheese (vegetarian but not vegan); variations can be seafood-based or mushroom-based; naturally gluten-free.",
+  "region": "Italy",
+  "type": "Main Course"
+},
+{
+  "id": "88",
+  "text": "Chilaquiles are a traditional Mexican breakfast dating back to pre-Hispanic times, created from corn tortilla strips fried until crispy, then simmered in either rojo (red tomato-based) or verde (green tomatillo-based) salsa with onions and garlic for 2-3 minutes until just softened but still retaining some crunch. Customarily topped with Mexican crema (sour cream), queso fresco (crumbly cheese), diced avocado, and sometimes fried eggs, pulled chicken, or chorizo. The dish originated as a way to repurpose leftover tortillas and has become an iconic comfort breakfast. Provides carbohydrates from tortillas, protein from cheese and eggs, healthy fats from avocado, and vitamins from salsa. Highly nutritious and satisfying street food. Dietary: Traditional version is vegetarian (dairy and eggs) but not vegan; can be made vegan by omitting cheese and cream; corn tortillas are gluten-free.",
+  "region": "Mexico",
+  "type": "Breakfast"
+},
+{
+  "id": "89",
+  "text": "Barbecue ribs are a quintessential American dish featuring pork ribs (spare ribs, baby back ribs, or beef ribs) slow-cooked via smoking or low-oven braising (225-275°F/107-135°C) for 3-6 hours until meat is tender enough to fall from the bone. Ribs are seasoned with dry rubs (paprika, brown sugar, garlic, cayenne) before cooking, then basted with regional barbecue sauce variations (vinegar-based, tomato-based, or mustard-based) during the final 30-45 minutes. Different American regions have distinct styles: Carolina vinegar-based, Kansas City thick molasses-sweet, Texas beef-focused, Memphis dry-rubbed. High in protein and B vitamins (especially B12 and niacin) from pork, though also calorie-dense and high in fat. Cultural icon of American Southern and outdoor cooking heritage. Dietary: Contains pork/beef; some sauces may have gluten; not vegetarian/vegan; high in saturated fat.",
+  "region": "United States",
+  "type": "Main Course"
+},
+{
+  "id": "90",
+  "text": "Jollof rice is an iconic West African one-pot dish with variations across Nigeria, Ghana, Senegal, and Cameroon, made by cooking long-grain rice (usually parboiled) in a spiced tomato-based sauce enriched with tomato paste, onions, red bell peppers, garlic, and ginger, cooked for 30-40 minutes until rice absorbs the sauce. The signature characteristic is the slightly caramelized, crispy golden rice layer at the pan bottom. Traditionally made with chicken, beef, or sometimes left vegetarian. Rich in lycopene from tomatoes, vitamin C from peppers, and carbohydrates from rice; protein varies by meat content. Deeply significant culturally—celebrated at weddings and celebrations, used to determine regional pride and cooking prowess with multiple countries claiming 'best jollof rice' status. Dietary: Multiple versions available—meat-based (chicken/beef), vegetarian (beans and vegetables), or seafood-based; gluten-free; naturally vegan-friendly if prepared without animal fat.",
+  "region": "West Africa",
+  "type": "Main Course"
 }
 ]

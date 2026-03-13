@@ -3,6 +3,9 @@ import json
 import chromadb
 import requests
 
+
+##EDIT 1
+
 # Constants
 CHROMA_DIR = "chroma_db"
 COLLECTION_NAME = "foods"
