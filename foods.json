@@ -538,5 +538,101 @@
   "text": "Jollof rice is an iconic West African one-pot dish with variations across Nigeria, Ghana, Senegal, and Cameroon, made by cooking long-grain rice (usually parboiled) in a spiced tomato-based sauce enriched with tomato paste, onions, red bell peppers, garlic, and ginger, cooked for 30-40 minutes until rice absorbs the sauce. The signature characteristic is the slightly caramelized, crispy golden rice layer at the pan bottom. Traditionally made with chicken, beef, or sometimes left vegetarian. Rich in lycopene from tomatoes, vitamin C from peppers, and carbohydrates from rice; protein varies by meat content. Deeply significant culturally—celebrated at weddings and celebrations, used to determine regional pride and cooking prowess with multiple countries claiming 'best jollof rice' status. Dietary: Multiple versions available—meat-based (chicken/beef), vegetarian (beans and vegetables), or seafood-based; gluten-free; naturally vegan-friendly if prepared without animal fat.",
   "region": "West Africa",
   "type": "Main Course"
+},
+{
+"id": "90",
+"text": "Lechon is a famous Filipino dish consisting of a whole roasted pig cooked over charcoal. The skin becomes extremely crispy while the meat inside stays tender and juicy. It is commonly served during large celebrations such as fiestas, weddings, and holidays.",
+"region": "Philippines",
+"type": "Main Dish"
+},
+{
+"id": "91",
+"text": "Kare-Kare is a traditional Filipino stew with a thick peanut-based sauce. It usually contains oxtail, tripe, and vegetables like eggplant and long beans and is often served with bagoong.",
+"region": "Philippines",
+"type": "Main Dish"
+},
+{
+"id": "92",
+"text": "Bulalo is a hearty Filipino beef soup made by simmering beef shanks and bone marrow for several hours to create a rich and flavorful broth.",
+"region": "Philippines",
+"type": "Soup"
+},
+{
+"id": "93",
+"text": "Laing is a Filipino vegetable dish from the Bicol region made with dried taro leaves cooked slowly in coconut milk and chili.",
+"region": "Philippines",
+"type": "Vegetable Dish"
+},
+{
+"id": "94",
+"text": "Bicol Express is a spicy Filipino dish made with pork cooked in coconut milk and chili peppers, known for its rich and creamy flavor.",
+"region": "Philippines",
+"type": "Main Dish"
+},
+{
+"id": "95",
+"text": "Tinola is a comforting Filipino chicken soup cooked with ginger, green papaya, and chili leaves in a light flavorful broth.",
+"region": "Philippines",
+"type": "Soup"
+},
+{
+"id": "96",
+"text": "Sisig is a popular Filipino sizzling dish from Pampanga made with chopped pork, onions, chili, and calamansi, often topped with egg.",
+"region": "Philippines",
+"type": "Main Dish"
+},
+{
+"id": "97",
+"text": "Lumpiang Shanghai is a Filipino-style fried spring roll filled with ground pork, vegetables, and spices, commonly served during celebrations.",
+"region": "Philippines",
+"type": "Appetizer"
+},
+{
+"id": "98",
+"text": "Puto is a soft and fluffy steamed Filipino rice cake that is slightly sweet and often topped with cheese or salted egg.",
+"region": "Philippines",
+"type": "Snack"
+},
+{
+"id": "99",
+"text": "Bibingka is a traditional Filipino rice cake cooked in banana leaf-lined containers and commonly served during the Christmas season.",
+"region": "Philippines",
+"type": "Dessert"
+},
+{
+"id": "100",
+"text": "Champorado is a Filipino chocolate rice porridge made with sticky rice and cocoa powder, often eaten for breakfast.",
+"region": "Philippines",
+"type": "Breakfast"
+},
+{
+"id": "101",
+"text": "Dinuguan is a Filipino savory stew made with pork and pig’s blood, creating a rich dark sauce with a slightly tangy flavor.",
+"region": "Philippines",
+"type": "Main Dish"
+},
+{
+"id": "102",
+"text": "Turon is a Filipino fried snack made with banana and jackfruit wrapped in spring roll wrappers and coated in caramelized sugar.",
+"region": "Philippines",
+"type": "Dessert"
+},
+{
+"id": "103",
+"text": "Taho is a popular Filipino street food made of soft tofu topped with sweet brown sugar syrup and tapioca pearls.",
+"region": "Philippines",
+"type": "Snack"
+},
+{
+"id": "104",
+"text": "Pancit Malabon is a Filipino noodle dish with thick rice noodles topped with a rich orange seafood sauce, shrimp, squid, and boiled eggs.",
+"region": "Philippines",
+"type": "Noodle Dish"
+},
+{
+"id": "105",
+"text": "Lechon is a famous Filipino dish consisting of a whole roasted pig cooked over charcoal. The skin becomes extremely crispy while the meat inside stays tender and juicy. It is commonly served during large celebrations such as fiestas, weddings, and holidays.",
+"region": "Philippines",
+"type": "Main Dish"
 }
 ]
