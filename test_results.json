@@ -1,0 +1,308 @@
+
+{
+  "run_timestamp": "2026-03-20T14:56:50.799969",
+  "model": "llama-3.1-8b-instant",
+  "total_tests": 15,
+  "results": [
+    {
+      "test_id": "T01",
+      "category": "Semantic Similarity",
+      "query": "healthy Mediterranean options",
+      "description": "Broad semantic search — no exact dish name given",
+      "score": 4.5,
+      "score_detail": "src_overlap=1/6 kw_hits=1/8 words=88",
+      "retrieved_ids": [
+        "86",
+        "99",
+        "95"
+      ],
+      "answer": "Based on the provided context, the following Mediterranean options are considered healthy:\n\n1. Paella (vegetarian, pescatarian, or traditional with seafood or meat, gluten-free) - rich in carbohydrates, protein, and antioxidants.\n2. Kale and sweet potato grain bowl (fully vegan and vegetarian, contains gluten if served with farro, contains sesame if served with tahini) - nutrient-dense, high in vitamins, and contains sulforaphane and indole-3-carbinol compounds with anti-cancer properties.\n\nBoth options are Mediterranean-inspired and align with the principles of the Mediterranean diet, which emphasizes whole, plant-based foods and healthy fats.",
+      "vector_ms": 794.8,
+      "llm_ms": 1390.4,
+      "total_ms": 2185.2,
+      "input_tokens": 780,
+      "output_tokens": 134,
+      "status": "fail"
+    },
+    {
+      "test_id": "T02",
+      "category": "Semantic Similarity",
+      "query": "light refreshing dishes with citrus",
+      "description": "Flavour-profile semantic search",
+      "score": 7.5,
+      "score_detail": "src_overlap=1/5 kw_hits=6/9 words=123",
+      "retrieved_ids": [
+        "92",
+        "2",
+        "95"
+      ],
+      "answer": "Based on the provided context, I would recommend the following light and refreshing dishes that feature citrus:\n\n1. Ceviche (Peru): A dish made with fresh raw fish marinated in lime juice, onions, and spices. It's a light and refreshing option that's high in protein and vitamin C.\n\nNote: Since you mentioned citrus, I'd like to point out that the text also mentions lemon, but it's not used in the ceviche recipe. However, lemons are known to be sour and yellow, as mentioned in the context.\n\nConsidering the context's mention of lemon, but not its usage in ceviche, and the tagine recipe featuring preserved lemon, I couldn't find another dish that directly fits the \"light refreshing dishes with citrus\" description in the provided context.",
+      "vector_ms": 540.2,
+      "llm_ms": 410.3,
+      "total_ms": 950.5,
+      "input_tokens": 593,
+      "output_tokens": 160,
+      "status": "pass"
+    },
+    {
+      "test_id": "T03",
+      "category": "Semantic Similarity",
+      "query": "warming winter soups and stews",
+      "description": "Context/season semantic search",
+      "score": 7.5,
+      "score_detail": "src_overlap=1/6 kw_hits=5/10 words=117",
+      "retrieved_ids": [
+        "38",
+        "109",
+        "76"
+      ],
+      "answer": "Based on the provided context, the following warming winter soups and stews are mentioned:\n\n1. Hot and sour soup (Chinese soup made with mushrooms, tofu, bamboo shoots, and egg, flavored with vinegar and white pepper).\n2. Beef Bourguignon (French Burgundy stew featuring chuck or braising cuts of beef slowly braised in red wine, beef stock, tomato paste, pearl onions, mushrooms, and bacon lardons).\n3. Shepherd's pie is not a soup or stew, but a casserole dish that can be a complete meal. However, its braised filling with lamb stock, Worcestershire sauce, and tomato paste might be considered a type of stew.\n\nNote that the context does not provide an exhaustive list of warming winter soups and stews.",
+      "vector_ms": 248.1,
+      "llm_ms": 409.8,
+      "total_ms": 658.0,
+      "input_tokens": 546,
+      "output_tokens": 160,
+      "status": "pass"
+    },
+    {
+      "test_id": "T04",
+      "category": "Multi-Criteria",
+      "query": "spicy vegetarian Asian dishes",
+      "description": "Three simultaneous criteria: heat + diet + region",
+      "score": 5.0,
+      "score_detail": "src_overlap=0/6 kw_hits=3/9 words=88",
+      "retrieved_ids": [
+        "91",
+        "101",
+        "26"
+      ],
+      "answer": "Based on the provided context, there are no spicy vegetarian Asian dishes mentioned. However, Massaman curry and Lentil soup (Mercimek Çorbası) are options, but Massaman curry is not traditionally vegetarian (contains slow-cooked beef or chicken) and can be adapted vegan, while Lentil soup is vegan in its base form. \n\nIf you're looking for spicy options, Tom Yum is mentioned, but it's made with shrimp, making it non-vegetarian. A potential adaptation of this dish could be made with vegan \"shrimp\" alternatives, but this is not mentioned in the context.",
+      "vector_ms": 251.9,
+      "llm_ms": 298.7,
+      "total_ms": 550.6,
+      "input_tokens": 602,
+      "output_tokens": 126,
+      "status": "pass"
+    },
+    {
+      "test_id": "T05",
+      "category": "Multi-Criteria",
+      "query": "gluten-free dishes high in protein",
+      "description": "Dietary restriction + nutritional requirement",
+      "score": 8.0,
+      "score_detail": "src_overlap=2/6 kw_hits=3/8 words=66",
+      "retrieved_ids": [
+        "99",
+        "83",
+        "100"
+      ],
+      "answer": "Based on the provided context, the following gluten-free dishes high in protein are mentioned:\n\n1. Salmon (25g of protein per 100g)\n2. Quinoa Buddha Bowl (18-22g of plant protein per full bowl)\n3. Quinoa Buddha Bowl can be adapted by substituting farro with quinoa in the Kale and sweet potato grain bowl, making it a gluten-free option with approximately 18-22g of plant protein per full bowl.",
+      "vector_ms": 257.9,
+      "llm_ms": 311.2,
+      "total_ms": 569.1,
+      "input_tokens": 773,
+      "output_tokens": 95,
+      "status": "pass"
+    },
+    {
+      "test_id": "T06",
+      "category": "Multi-Criteria",
+      "query": "vegan dishes from Africa or the Middle East",
+      "description": "Diet type + two geographic regions",
+      "score": 5.5,
+      "score_detail": "src_overlap=1/5 kw_hits=2/8 words=57",
+      "retrieved_ids": [
+        "95",
+        "68",
+        "67"
+      ],
+      "answer": "Based on the provided context, the following vegan dishes can be identified:\n\n1. Vegetarian chickpea and root vegetable tagine (can be easily adapted to be vegan by replacing honey with a suitable substitute, such as maple syrup).\n2. Falafel (can be made with chickpeas or fava beans, and typically served in pita bread without any animal products).",
+      "vector_ms": 245.1,
+      "llm_ms": 450.3,
+      "total_ms": 695.5,
+      "input_tokens": 383,
+      "output_tokens": 78,
+      "status": "pass"
+    },
+    {
+      "test_id": "T07",
+      "category": "Nutritional",
+      "query": "high protein low carb foods",
+      "description": "Macronutrient-specific query",
+      "score": 9.0,
+      "score_detail": "src_overlap=2/5 kw_hits=4/8 words=119",
+      "retrieved_ids": [
+        "83",
+        "99",
+        "84"
+      ],
+      "answer": "Based on the provided context, the following high protein, low carb foods are mentioned:\n\n1. Salmon (25g of protein per 100g, with only a small amount of carbs).\n2. Almonds (6g of protein per ounce, with approximately 2-3g of carbs per ounce).\n3. Farro (contains gluten, but can be substituted with quinoa for a gluten-free option) and brown rice (both are low in carbs and contain a moderate amount of protein, approximately 4-5g per ounce).\n4. Chickpeas (4g of protein per ounce, with approximately 6-7g of carbs per ounce, but can be low-carb depending on the serving size).\n\nAdditionally, the kale and sweet potato grain bowl, when made with farro or brown rice, provides approximately 18-22g of plant protein.",
+      "vector_ms": 232.4,
+      "llm_ms": 440.8,
+      "total_ms": 673.2,
+      "input_tokens": 729,
+      "output_tokens": 177,
+      "status": "pass"
+    },
+    {
+      "test_id": "T08",
+      "category": "Nutritional",
+      "query": "foods rich in antioxidants and vitamins",
+      "description": "Micronutrient-focused query",
+      "score": 9.0,
+      "score_detail": "src_overlap=2/6 kw_hits=5/8 words=99",
+      "retrieved_ids": [
+        "83",
+        "82",
+        "99"
+      ],
+      "answer": "Based on the provided context, the following foods are rich in antioxidants and vitamins:\n\n1. **Blueberries**: high in anthocyanins, vitamin C, vitamin K, and manganese.\n2. **Salmon**: rich in vitamin D (especially wild salmon), B vitamins, and selenium.\n3. **Kale**: high in vitamins A, C, and K, and sulforaphane and indole-3-carbinol compounds.\n4. **Sweet potato**: contains beta-carotene (a precursor to vitamin A) and potassium.\n5. **Wild blueberries** (specifically): have a higher anthocyanin content, which may enhance memory and slow cognitive decline.\n\nThese foods are all nutrient-dense and provide various health benefits, including antioxidant effects, vitamin support, and anti-inflammatory properties.",
+      "vector_ms": 287.5,
+      "llm_ms": 392.1,
+      "total_ms": 679.6,
+      "input_tokens": 709,
+      "output_tokens": 166,
+      "status": "pass"
+    },
+    {
+      "test_id": "T09",
+      "category": "Nutritional",
+      "query": "what should I eat for gut health and digestion",
+      "description": "Health goal query — no dish name mentioned",
+      "score": 6.5,
+      "score_detail": "src_overlap=1/7 kw_hits=3/10 words=118",
+      "retrieved_ids": [
+        "83",
+        "99",
+        "85"
+      ],
+      "answer": "Based on the provided context, several foods support gut health and digestion:\n\n1. Kale: Rich in sulforaphane, which has anti-inflammatory properties that can help reduce inflammation in the gut.\n2. Sweet potato: High in fiber, which can help promote digestive regularity and support the growth of beneficial gut bacteria.\n3. Broccoli: Contains sulforaphane, which can help reduce inflammation and promote the growth of beneficial gut bacteria.\n4. Avocado: Rich in healthy fats and fiber, which can help support digestive health and promote the growth of beneficial gut bacteria.\n\nAdditionally, the context suggests that a balanced diet with a variety of whole foods, including fruits, vegetables, whole grains, and lean protein sources, can support overall gut health and digestion.",
+      "vector_ms": 235.7,
+      "llm_ms": 4368.4,
+      "total_ms": 4604.2,
+      "input_tokens": 752,
+      "output_tokens": 154,
+      "status": "pass"
+    },
+    {
+      "test_id": "T10",
+      "category": "Nutritional",
+      "query": "low calorie filling meals under 300 calories",
+      "description": "Calorie-specific constraint query",
+      "score": 7.5,
+      "score_detail": "src_overlap=1/4 kw_hits=5/9 words=160",
+      "retrieved_ids": [
+        "109",
+        "96",
+        "98"
+      ],
+      "answer": "Based on the provided context, I can suggest the following low-calorie filling meals under 300 calories:\n\n1. Ukrainian Borscht (approximately 180-250 calories per bowl): This vibrantly colored beet soup is made with sautéed beets, carrots, onion, and cabbage, simmered in rich meat stock. It's an excellent source of folate from beets (34% DV), vitamin C, potassium, and dietary fibre. It can be made vegetarian and is gluten-free, nut-free, and dairy-free if the smetana (sour cream) is omitted.\n\n2. Vegetarian Lentil Version of Shepherd's Pie (calorie count not specified): Although the calorie count is not provided, the traditional shepherd's pie recipe can be adapted to use lentils instead of lamb, making it a lower-calorie option. This version would still be rich in protein, potassium, and vitamin C from potato, and beta-carotene from carrots.\n\nNote: The calorie count for the vegetarian lentil version of Shepherd's Pie is not specified in the context, so it's not possible to provide an exact calorie count.",
+      "vector_ms": 886.8,
+      "llm_ms": 2868.2,
+      "total_ms": 3755.1,
+      "input_tokens": 874,
+      "output_tokens": 232,
+      "status": "pass"
+    },
+    {
+      "test_id": "T11",
+      "category": "Cultural Exploration",
+      "query": "traditional comfort foods with interesting cultural stories",
+      "description": "Cultural + emotional category query",
+      "score": 9.0,
+      "score_detail": "src_overlap=2/6 kw_hits=4/11 words=118",
+      "retrieved_ids": [
+        "109",
+        "95",
+        "110"
+      ],
+      "answer": "Based on the provided context, the following traditional comfort foods with interesting cultural stories can be mentioned:\n\n1. Shepherd's pie (British and Irish) - a quintessential comfort food born from working-class frugality, promoted as wartime economy cooking, and synonymous with home, routine, and the warmth of a working kitchen.\n\n2. Khachapuri (Georgian) - an iconic comfort food and national symbol, whose cultural significance is so embedded that its ingredients are tracked as a real economic indicator in Georgia. It is the centrepiece of the supra, the elaborate Georgian feast.\n\n3. Tagine (Moroccan) - a centuries-old slow-braised stew named after the distinctive conical earthenware vessel it is cooked in, which circulates steam to keep meat exceptionally tender and moist.",
+      "vector_ms": 246.4,
+      "llm_ms": 7483.5,
+      "total_ms": 7729.9,
+      "input_tokens": 922,
+      "output_tokens": 162,
+      "status": "pass"
+    },
+    {
+      "test_id": "T12",
+      "category": "Cultural Exploration",
+      "query": "dishes that represent national identity or are UNESCO recognised",
+      "description": "Geopolitical/cultural significance query",
+      "score": 7.5,
+      "score_detail": "src_overlap=1/6 kw_hits=5/9 words=44",
+      "retrieved_ids": [
+        "30",
+        "98",
+        "86"
+      ],
+      "answer": "Based on the provided context, the following dishes represent national identity or are UNESCO-recognized:\n\n1. Nasi lemak (Malaysia's national dish)\n2. Chiles en Nogada (honours Mexican Independence Day and represents Mexican national identity)\n3. Paella (UNESCO-recognized cultural symbol representing Valencian identity and Mediterranean cuisine)",
+      "vector_ms": 856.8,
+      "llm_ms": 3275.2,
+      "total_ms": 4132.1,
+      "input_tokens": 548,
+      "output_tokens": 72,
+      "status": "pass"
+    },
+    {
+      "test_id": "T13",
+      "category": "Cultural Exploration",
+      "query": "fusion foods that blend two different culinary traditions",
+      "description": "Abstract culinary concept query",
+      "score": 5.0,
+      "score_detail": "src_overlap=0/3 kw_hits=3/11 words=156",
+      "retrieved_ids": [
+        "95",
+        "86",
+        "79"
+      ],
+      "answer": "Based on the context, there are no explicit examples of fusion foods that blend two different culinary traditions. However, we can infer some possibilities by combining the characteristics of the mentioned dishes.\n\nOne potential fusion food idea is a \"Moroccan Paella\" that combines the slow-cooking technique of a tagine with the use of saffron-infused broth and short-grain rice from a traditional paella. This dish would blend the flavors and spices of Moroccan cuisine with the technique and ingredients of Spanish paella.\n\nAnother idea is a \"Mediterranean Bouillabaisse Tagine\" that incorporates the seafood and saffron-infused broth of a traditional bouillabaisse into a slow-cooked tagine with the use of preserved lemons and ras el hanout spices. This dish would combine the hearty fish stew of Provençal cuisine with the rich flavors and spices of Moroccan tagine.\n\nThese ideas represent potential fusion foods that blend two different culinary traditions, but they are not explicitly mentioned in the provided context.",
+      "vector_ms": 873.0,
+      "llm_ms": 5628.2,
+      "total_ms": 6501.3,
+      "input_tokens": 697,
+      "output_tokens": 209,
+      "status": "pass"
+    },
+    {
+      "test_id": "T14",
+      "category": "Cooking Method",
+      "query": "dishes that are slow cooked or braised for several hours",
+      "description": "Technique-specific query",
+      "score": 9.0,
+      "score_detail": "src_overlap=2/6 kw_hits=5/11 words=32",
+      "retrieved_ids": [
+        "95",
+        "86",
+        "89"
+      ],
+      "answer": "Based on the provided context, the following dishes are slow-cooked or braised for several hours:\n\n1. Tagine (1.5-2.5 hours at low heat)\n2. Barbecue ribs (3-6 hours via smoking or low-oven braising)",
+      "vector_ms": 698.1,
+      "llm_ms": 5282.2,
+      "total_ms": 5980.4,
+      "input_tokens": 725,
+      "output_tokens": 57,
+      "status": "pass"
+    },
+    {
+      "test_id": "T15",
+      "category": "Cooking Method",
+      "query": "dishes cooked on a grill or open flame",
+      "description": "Cooking method query with multiple valid answers",
+      "score": 6.5,
+      "score_detail": "src_overlap=1/6 kw_hits=3/12 words=51",
+      "retrieved_ids": [
+        "89",
+        "95",
+        "63"
+      ],
+      "answer": "Based on the provided context, the dish cooked on a grill or open flame is Barbecue ribs, as it is described as slow-cooked via smoking or low-oven braising at a temperature of 225-275°F (107-135°C) for 3-6 hours. However, it is worth noting that grilling is not explicitly mentioned in the context.",
+      "vector_ms": 864.4,
+      "llm_ms": 3286.5,
+      "total_ms": 4151.0,
+      "input_tokens": 554,
+      "output_tokens": 76,
+      "status": "pass"
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+
+======================================================================
+RAG-FOOD COMPREHENSIVE QUERY TEST SUITE
+Started: 2026-03-20 14:55:38
+Model:   llama-3.1-8b-instant
+======================================================================
+
+[T01] Semantic Similarity
+  Query: 'healthy Mediterranean options'
+  Sources: ['86', '99', '95'] (scores: [0.8182, 0.8155, 0.8124])
+  Timing:  vector=794.8ms | llm=1390.4ms | total=2185.2ms
+  Tokens:  780 in / 134 out
+  Score:   4.5/10  (src_overlap=1/6 kw_hits=1/8 words=88)
+  Answer:  Based on the provided context, the following Mediterranean options are considered healthy:     
+
+1. Paella (vegetarian, pescatarian, or traditional with seafood or meat, gluten-free) - rich in carbohydrate...
+
+[T02] Semantic Similarity
+  Query: 'light refreshing dishes with citrus'
+  Sources: ['92', '2', '95'] (scores: [0.8077, 0.801, 0.7986])
+  Timing:  vector=540.2ms | llm=410.3ms | total=950.5ms
+  Tokens:  593 in / 160 out
+  Score:   7.5/10  (src_overlap=1/5 kw_hits=6/9 words=123)
+  Answer:  Based on the provided context, I would recommend the following light and refreshing dishes that feature citrus:
+
+1. Ceviche (Peru): A dish made with fresh raw fish marinated in lime juice, onions, and...
+
+[T03] Semantic Similarity
+  Query: 'warming winter soups and stews'
+  Sources: ['38', '109', '76'] (scores: [0.8162, 0.8145, 0.8087])
+  Timing:  vector=248.1ms | llm=409.8ms | total=658.0ms
+  Tokens:  546 in / 160 out
+  Score:   7.5/10  (src_overlap=1/6 kw_hits=5/10 words=117)
+  Answer:  Based on the provided context, the following warming winter soups and stews are mentioned:     
+
+1. Hot and sour soup (Chinese soup made with mushrooms, tofu, bamboo shoots, and egg, flavored with vinegar ...
+
+[T04] Multi-Criteria
+  Query: 'spicy vegetarian Asian dishes'
+  Sources: ['91', '101', '26'] (scores: [0.8317, 0.8119, 0.8086])
+  Timing:  vector=251.9ms | llm=298.7ms | total=550.6ms
+  Tokens:  602 in / 126 out
+  Score:   5.0/10  (src_overlap=0/6 kw_hits=3/9 words=88)
+  Answer:  Based on the provided context, there are no spicy vegetarian Asian dishes mentioned. However, Massaman curry and Lentil soup (Mercimek Çorbası) are options, but Massaman curry is not traditionally veg...
+
+[T05] Multi-Criteria
+  Query: 'gluten-free dishes high in protein'
+  Sources: ['99', '83', '100'] (scores: [0.8291, 0.8162, 0.8149])
+  Timing:  vector=257.9ms | llm=311.2ms | total=569.1ms
+  Tokens:  773 in / 95 out
+  Score:   8.0/10  (src_overlap=2/6 kw_hits=3/8 words=66)
+  Answer:  Based on the provided context, the following gluten-free dishes high in protein are mentioned: 
+
+1. Salmon (25g of protein per 100g)
+2. Quinoa Buddha Bowl (18-22g of plant protein per full bowl)
+3. Qui...
+
+[T06] Multi-Criteria
+  Query: 'vegan dishes from Africa or the Middle East'
+  Sources: ['95', '68', '67'] (scores: [0.8327, 0.831, 0.8296])
+  Timing:  vector=245.1ms | llm=450.3ms | total=695.5ms
+  Tokens:  383 in / 78 out
+  Score:   5.5/10  (src_overlap=1/5 kw_hits=2/8 words=57)
+  Answer:  Based on the provided context, the following vegan dishes can be identified:
+
+1. Vegetarian chickpea and root vegetable tagine (can be easily adapted to be vegan by replacing honey with a suitable sub...
+
+[T07] Nutritional
+  Query: 'high protein low carb foods'
+  Sources: ['83', '99', '84'] (scores: [0.8257, 0.8201, 0.8043])
+  Timing:  vector=232.4ms | llm=440.8ms | total=673.2ms
+  Tokens:  729 in / 177 out
+  Score:   9.0/10  (src_overlap=2/5 kw_hits=4/8 words=119)
+  Answer:  Based on the provided context, the following high protein, low carb foods are mentioned:       
+
+1. Salmon (25g of protein per 100g, with only a small amount of carbs).
+2. Almonds (6g of protein per ounce, w...
+
+[T08] Nutritional
+  Query: 'foods rich in antioxidants and vitamins'
+  Sources: ['83', '82', '99'] (scores: [0.8488, 0.8356, 0.834])
+  Timing:  vector=287.5ms | llm=392.1ms | total=679.6ms
+  Tokens:  709 in / 166 out
+  Score:   9.0/10  (src_overlap=2/6 kw_hits=5/8 words=99)
+  Answer:  Based on the provided context, the following foods are rich in antioxidants and vitamins:      
+
+1. **Blueberries**: high in anthocyanins, vitamin C, vitamin K, and manganese.
+2. **Salmon**: rich in vitamin...
+
+[T09] Nutritional
+  Query: 'what should I eat for gut health and digestion'
+  Sources: ['83', '99', '85'] (scores: [0.8246, 0.8148, 0.8061])
+  Timing:  vector=235.7ms | llm=4368.4ms | total=4604.2ms
+  Tokens:  752 in / 154 out
+  Score:   6.5/10  (src_overlap=1/7 kw_hits=3/10 words=118)
+  Answer:  Based on the provided context, several foods support gut health and digestion:
+
+1. Kale: Rich in sulforaphane, which has anti-inflammatory properties that can help reduce inflammation in the gut.
+2. S...
+
+[T10] Nutritional
+  Query: 'low calorie filling meals under 300 calories'
+  Sources: ['109', '96', '98'] (scores: [0.8018, 0.7924, 0.7902])
+  Timing:  vector=886.8ms | llm=2868.2ms | total=3755.1ms
+  Tokens:  874 in / 232 out
+  Score:   7.5/10  (src_overlap=1/4 kw_hits=5/9 words=160)
+  Answer:  Based on the provided context, I can suggest the following low-calorie filling meals under 300 calories:
+
+1. Ukrainian Borscht (approximately 180-250 calories per bowl): This vibrantly colored beet so...
+
+[T11] Cultural Exploration
+  Query: 'traditional comfort foods with interesting cultural stories'
+  Sources: ['109', '95', '110'] (scores: [0.8197, 0.8152, 0.8105])
+  Timing:  vector=246.4ms | llm=7483.5ms | total=7729.9ms
+  Tokens:  922 in / 162 out
+  Score:   9.0/10  (src_overlap=2/6 kw_hits=4/11 words=118)
+  Answer:  Based on the provided context, the following traditional comfort foods with interesting cultural stories can be mentioned:
+
+1. Shepherd's pie (British and Irish) - a quintessential comfort food born f...
+
+[T12] Cultural Exploration
+  Query: 'dishes that represent national identity or are UNESCO recognised'
+  Sources: ['30', '98', '86'] (scores: [0.8276, 0.8246, 0.8233])
+  Timing:  vector=856.8ms | llm=3275.2ms | total=4132.1ms
+  Tokens:  548 in / 72 out
+  Score:   7.5/10  (src_overlap=1/6 kw_hits=5/9 words=44)
+  Answer:  Based on the provided context, the following dishes represent national identity or are UNESCO-recognized:
+
+1. Nasi lemak (Malaysia's national dish)
+2. Chiles en Nogada (honours Mexican Independence Da...
+
+[T13] Cultural Exploration
+  Query: 'fusion foods that blend two different culinary traditions'
+  Sources: ['95', '86', '79'] (scores: [0.818, 0.8144, 0.8142])
+  Timing:  vector=873.0ms | llm=5628.2ms | total=6501.3ms
+  Tokens:  697 in / 209 out
+  Score:   5.0/10  (src_overlap=0/3 kw_hits=3/11 words=156)
+  Answer:  Based on the context, there are no explicit examples of fusion foods that blend two different culinary traditions. However, we can infer some possibilities by combining the characteristics of the ment...
+
+[T14] Cooking Method
+  Query: 'dishes that are slow cooked or braised for several hours'
+  Sources: ['95', '86', '89'] (scores: [0.8293, 0.8252, 0.8245])
+  Timing:  vector=698.1ms | llm=5282.2ms | total=5980.4ms
+  Tokens:  725 in / 57 out
+  Score:   9.0/10  (src_overlap=2/6 kw_hits=5/11 words=32)
+  Answer:  Based on the provided context, the following dishes are slow-cooked or braised for several hours:
+
+1. Tagine (1.5-2.5 hours at low heat)
+2. Barbecue ribs (3-6 hours via smoking or low-oven braising)
+
+[T15] Cooking Method
+  Query: 'dishes cooked on a grill or open flame'
+  Sources: ['89', '95', '63'] (scores: [0.8165, 0.8029, 0.796])
+  Timing:  vector=864.4ms | llm=3286.5ms | total=4151.0ms
+  Tokens:  554 in / 76 out
+  Score:   6.5/10  (src_overlap=1/6 kw_hits=3/12 words=51)
+  Answer:  Based on the provided context, the dish cooked on a grill or open flame is Barbecue ribs, as it is described as slow-cooked via smoking or low-oven braising at a temperature of 225-275°F (107-135°C) f...
+
+======================================================================
+SUMMARY
+======================================================================
+
+  Semantic Similarity
+    Avg score : 6.5/10  |  Pass rate: 2/3
+    Avg time  : 1265.0ms
+
+  Multi-Criteria
+    Avg score : 6.2/10  |  Pass rate: 3/3
+    Avg time  : 605.0ms
+
+  Nutritional
+    Avg score : 8.0/10  |  Pass rate: 4/4
+    Avg time  : 2428.0ms
+
+  Cultural Exploration
+    Avg score : 7.2/10  |  Pass rate: 3/3
+    Avg time  : 6121.0ms
+
+  Cooking Method
+    Avg score : 7.8/10  |  Pass rate: 2/2
+    Avg time  : 5066.0ms
+
+  Overall
+    Avg score  : 7.1/10
+    Min/Max    : 4.5/9.0
+    Avg latency: 2921.0ms
+    Min/Max lat: 550.6ms / 7729.9ms
+    Total tokens: 10187 in / 2058 out
+    Est. cost  : $0.00067
+    Pass (≥5)  : 14/15
